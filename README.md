@@ -34,13 +34,24 @@ DB_PASSWORD=
 ```bash
 npm install && npm run dev
 ```
+## Generar key
+```php
+php artisan key:generate
+```
 
+## Correr migraciones
+
+```php
+php artisan migrate:fresh --seed
+```
 
 ## Correr el servidor
 
 ```php
 php artisan serve
 ```
+
+usuario por defecto user@example.com clave: password.
 
 
 ## License
